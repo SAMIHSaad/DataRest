@@ -23,4 +23,7 @@ public class Etudiant {
     private String prenom;
     @Enumerated(EnumType.STRING)
     private Genre genre;
+    @ManyToOne
+    private Centre centre;
+
 }
